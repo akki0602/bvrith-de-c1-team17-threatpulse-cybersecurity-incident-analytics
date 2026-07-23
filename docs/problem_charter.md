@@ -2,19 +2,18 @@
 
 **Week:** 1  
 **Owner(s):** A.ASHWINI, D.Srija, T.Akshaya
-**Project:** Threatpulse CyberSecurity Incident Analytics
+**Project:** ChargeIQ — EV Station Utilization Analytics 
 
 ---
 
 ## 1. Problem Context
 
 Explain the domain in simple language.
-Fully synthetic SOC analytics across alerts, assets, incidents, severity, and response time with a simulated live security
-event feed.
+Electric Vehicle (EV) charging infrastructure is expanding, but utilization remains uneven. Some stations are idle while others face congestion, leading to poor customer experience and inefficient resource planning. Raw usage data alone is not enough — it must be transformed into trusted insights to support decision-making.
 
 Prompts:
 
-- What real-world process or operation does this project represent?
+- What real-world process does this project represent?
 - What kinds of data are generated?
 - Why is raw data not enough?
 - Who would use the final dashboard or metrics?
@@ -23,7 +22,14 @@ Prompts:
 
 ## 2. Engineering Problem
 
-Develop a Databricks data pipeline that converts raw cybersecurity data into Bronze, Silver, Gold, and dashboard-ready outputs with data quality checks and live streaming support.
+Develop a Databricks data pipeline that converts raw EV charging data into Bronze, Silver, Gold, and dashboard-ready outputs with data quality checks and streaming support.
+
+The pipeline must:  
+- Ingest multiple raw source files into Bronze.  
+- Apply transformations and cleaning in Silver.  
+- Perform data quality checks.  
+- Generate Gold outputs with KPIs.  
+- Feed Power BI dashboards and streaming simulations.  
 
 Example format:
 
@@ -34,7 +40,12 @@ Example format:
 ## 3. Users / Stakeholders
 
 | User / Stakeholder | What they need from the data |
-|---|---|
+| EV Owners | Reliable access to charging stations |
+| Station Operators | Monitor usage and reduce congestion |
+| Energy Providers | Balance grid demand |
+| City Planners | Plan infrastructure expansion |
+| Analysts | Compare trends and investigate failures |
+
 | [Example: Operations Head] | [Example: View daily demand and service issues] |
 | [Example: Analyst] | [Example: Compare trends and investigate failures] |
 
@@ -64,6 +75,12 @@ GitHub documentation
 ## 5. Scope Exclusions
 
 List what the team will not build.
+- No real EV data  
+- No production deployment  
+- No hacking or penetration testing  
+- No copied projects  
+- No unexplained AI-generated work 
+
 
 Examples:
 
