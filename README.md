@@ -1,4 +1,4 @@
-ThreatPulse CyberSecurity Incident Analytics
+ChargeIQ - EV Station Utilization Analytics
 
 > **Student note:** Start with `00_START_HERE.md` and `00_TEMPLATE_INDEX.md`. The placeholder files inside this repo are the templates.
 
@@ -15,6 +15,19 @@ ThreatPulse CyberSecurity Incident Analytics
 ## 1. Project Summary
 
 Write 5–8 lines explaining the assigned project.
+**Domain:** Electric Vehicle (EV) Infrastructure  
+**Core Engineering Problem:** EV charging station utilization is uneven — some stations remain idle while others face congestion. Raw usage data must be transformed into trusted insights for better planning and efficiency.  
+
+**Main Pipeline:**  
+Raw Sources → Bronze → Silver → Data Quality → Gold → Power BI → Streaming Simulation  
+
+**Final Outcome:**  
+- GitHub repository with weekly evidence  
+- Databricks notebooks for pipeline stages  
+- Gold outputs with KPIs  
+- Power BI dashboard for visualization  
+- Streaming simulation for live monitoring  
+- Final demo presentation  
 
 Example structure:
 
